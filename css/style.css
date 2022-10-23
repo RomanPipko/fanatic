@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #262C27;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container{
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(../images/header_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header__top{
+    display: flex;
+    align-items: center;
+    padding: 57px 0;
+    justify-content: flex-end;
+    gap: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: 'Comfortaa', cursive;
+}
+.logo path{
+    transition: fill 0.3s ease-in-out; 
+
+}
+
+.logo:hover path{
+    fill: #0093A1;
+}
+
+.header__btn{
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #262C27;
+    padding: 12px 74px;
+    border: none;
+    cursor: pointer;
+}
