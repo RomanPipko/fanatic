@@ -169,5 +169,69 @@ h1, h2, h3, h4, h5, h6, p {
     font-style: italic;
     text-align: center;
     opacity: 0.6;
+}
 
+.info{
+    background-image: url(../images/info_bg.jpg);
+    background-repeat: no-repea;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.info::before{
+    content: "";
+    position: absolute;
+    height: 180px;
+    background-color: #262C27;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+
+.info__top{
+    display: flex;
+    gap: 80px;
+    padding-top: 250px;
+
+}
+
+.info__top-text{
+    padding-top: 245px;
+    width: 290px;
+    color: #fff;
+    position: relative;
+}
+
+.info__top-text--two{
+    border-bottom: 1px solid #fff;
+}
+
+.info__top-img{
+    width: 227px;
+    height: 650px;
+    position: relative;
+    z-index: 6;
+}
+
+.popup-btn{
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.popup-btn span{
+    display: block;
+    padding-top: 12px;
+    color: #fff;
+}
+
+.info__btn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
