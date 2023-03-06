@@ -206,6 +206,11 @@ h1, h2, h3, h4, h5, h6, p {
     position: relative;
 }
 
+.info__top-text--one{
+    padding-bottom: 125px;
+}
+
+
 .info__top-text--two{
     border-bottom: 1px solid #fff;
 }
