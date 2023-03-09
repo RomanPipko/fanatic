@@ -281,3 +281,17 @@ ul{
 .info__specs-caption{
     width: 185px;
 }
+
+.buy{
+    padding: 150px 0;
+}
+
+.buy__inner{
+    display: flex;
+    align-items: center;
+    gap: 115px;
+}
+
+.buy__content{
+    width: 484px;
+}
