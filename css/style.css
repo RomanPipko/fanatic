@@ -617,7 +617,6 @@ img {
     fill: #0093A1;
 }
 
-
 @media (max-width: 1230px) {
     .header__decor-text--two {
         left: 0;
@@ -641,13 +640,13 @@ img {
 
 }
 
-@media (max-width: 414px){
-    .header__decor-text--three{
+@media (max-width: 414px) {
+    .header__decor-text--three {
         font-size: 15px;
     }
-    
+
     .header__decor-text--two,
-    .header__decor-text--one{
+    .header__decor-text--one {
         font-size: 50px;
     }
 }
@@ -657,6 +656,4 @@ img {
         font-size: 55px;
         line-height: 60px;
     }
-
-    
 }
